@@ -23,9 +23,9 @@ const number = '42';
 console.log(number);
 const text = 'Universo';
 console.log(text);
-const bool = 'true';
+let bool = 1>2;
+Boolean(bool)
 console.log(bool);
-const spacer = ' ';
 // /codice scritto da Michelangelo
 
 let fullName = `${firstName} ${lastName}`
