@@ -16,19 +16,19 @@ const lastName = 'Smith'; // NON MODIFICARE QUESTA RIGA
 
 //  codice scritto da Michelangelo
 // punto 1.
-const name = 'Michelangelo' ;
-console.log(name);
+const myName = 'Michelangelo' ;
+console.log(myName);
 // punto 2.
 const number = '42';
 console.log(number);
 const text = 'Universo';
 console.log(text);
 let bool = 1>2;
-Boolean(bool)
+Boolean(bool);
 console.log(bool);
 // /codice scritto da Michelangelo
 
-let fullName = `${firstName} ${lastName}`
+let fullName = `${firstName} ${lastName}`;
 console.log(fullName); // Output: "Jane Smith"
 
 // 4. Imposta questa variabile utilizzando una proprietà
